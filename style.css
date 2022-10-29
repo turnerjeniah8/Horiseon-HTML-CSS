@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/*makes the entire background one color*/
 body {
     background-color: #d9dcd6;
 }
@@ -19,11 +19,12 @@ header h1 {
     display: inline-block;
     font-size: 50px;
 }
-
+/*makes the seo within the header's logo a different color for style*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/*navBar*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,7 +34,7 @@ nav {
     list-style-type: none;
 
 }
-
+/*NavBar's list*/
 nav li {
     display: inline-block;
     margin-left: 25px;
@@ -84,6 +85,7 @@ aside {
     background-color: #2589bd;
 }
 
+/*Combines multiple classes into one CSS*/
 .benefit-lead,.benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
